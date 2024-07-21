@@ -1,4 +1,4 @@
-# Data project on stolen bikes stats in Brussels
+# Stolen Bikes in Brussels
  
 This is data and visual project on stolen bikes in Brussels. I have analysed +10 years of police records and 
 deployed a scrolly with an emphasis on visual objects and storytelling.
