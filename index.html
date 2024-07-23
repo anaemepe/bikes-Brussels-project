@@ -150,24 +150,25 @@
           order: 1;
           flex-grow: 2;
         }
+      }
         /* Responsive adjustments of heading */
-        @media (max-width: 640px) {
-          .header-title {
-            font-size: 2rem; /* Adjust font size for smaller screens */
-          }
-          .header-container {
-            padding-left: 0.5em;
-                padding-right: 0.5em
-          }
-          
+      @media (max-width: 640px) {
+        .header-title {
+           font-size: 2rem; /* Adjust font size for smaller screens */
         }
+        .header-container {
+           padding-left: 0.5em;
+           padding-right: 0.5em
+        }
+          
+      }
 
-        @media (max-width: 480px) {
-          .header-title {
-            font-size: 1.5rem; /* Further adjust font size for very small screens */
-          }
+      @media (max-width: 480px) {
+        .header-title {
+           font-size: 1.5rem; /* Further adjust font size for very small screens */
         }
       }
+      
     </style>
 	<script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollama/3.0.4/scrollama.min.js"></script>
